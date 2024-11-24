@@ -116,6 +116,11 @@ body {
   body {
       padding: 50px;
   }
+  
+  h3 {
+    font-size: 14px;
+    width: 90%;
+}
 
   .resume-container {
       flex-direction: column;
@@ -133,12 +138,16 @@ body {
       width: 100%;
       padding: 15px;
   }
+  .objective , .certification{
+    padding-right: 20px;
+  }
 }
 
 /* Small devices (phones, 480px and below) */
 @media screen and (max-width: 480px) {
   body {
       padding: 20px;
+      font-size: 12px;
   }
 
   .resume-container {
@@ -150,25 +159,37 @@ body {
   }
 
   h1 {
-      font-size: 20px;
+      font-size: 18px;
   }
 
   h3 {
-      font-size: 16px;
+      font-size: 14px;
+      width: 80%;
   }
 
-  button {
-      font-size: 16px;
-  }
+ 
 
   .profile-picture {
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
   }
 }
-
-  @media screen and (max-width: 480px) {
-    body {
-      font-size: 14px;
+  @media screen and (max-width: 240px) {
+    button {
+      font-size: 10px;
+   }
+    h1{
+      font-size: 16px;
     }
+    body {
+      font-size: 8px;
+    }
+    .profile-picture{
+      width: 50px ;
+      height: 50px ;
+      margin-right: 10px;
+    }
+    h3 {
+      font-size: 12px;
+  }
   }
